@@ -1,17 +1,9 @@
 import { useState } from "react";
-
 import "./App.css";
-import Timer from "./Components/Timer";
+
 
 function App() {
-  const [showComponent, setShowComponent]=useState(false)
-
-  return(
-    <>
-    <button onClick={()=> setShowComponent(true)}></button>
-    <Timer/>
-    </>
-  )
+// Copy karneke liye aye ho to, avhi isme kuch nehi milega
 }
 
 export default App;
