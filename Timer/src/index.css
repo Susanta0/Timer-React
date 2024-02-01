@@ -1,0 +1,30 @@
+.mainContainer {
+  margin: 30px auto;
+  text-align: center;
+}
+.mainContainer > button {
+  font-size: 1.3em;
+  background-color: aqua;
+  color: darkred;
+}
+
+.timerContainer {
+  border: 2px solid;
+  width: fit-content;
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: chartreuse;
+  border-radius: 5px;
+}
+.buttonContainer {
+  display: flex;
+  gap: 2em;
+}
+p {
+  font-size: 1.2em;
+  text-align: center;
+}
+strong {
+  color: #fff;
+}
